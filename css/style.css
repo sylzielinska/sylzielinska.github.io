@@ -1,0 +1,137 @@
+:root {
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --main-color: #212121;
+}
+
+body {
+  font-family: var(--main-font);
+}
+/* =======COMPONENTS======= */
+
+.modal-button {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  color: #ffffff;
+  cursor: pointer;
+}
+.modal-button:hover {
+  color: #2196f3;
+}
+.contact {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+  color: #2196f3;
+}
+
+.description-lorem {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 171%;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/* =======END COMPONENTS=== */
+/* HEADER */
+.navigation-logo {
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+  text-decoration: none;
+}
+span {
+  color: var(--main-color);
+}
+.navigation-list-link {
+  color: var(--main-color);
+}
+.contact-top {
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
+}
+.navigation-list-link:hover,
+.navigation-list-link:focus,
+.contact:hover,
+.contact:focus,
+.contact-top:hover,
+.contact-top:focus {
+  color: #2196f3;
+}
+
+/* END HEADER */
+
+h1 {
+  font-family: var(--main-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  /*color: #ffffff*/
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 200%;
+  letter-spacing: 0.06em;
+}
+
+h4 {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.employee-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.description-job {
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.description-portfolio {
+  font-size: 16px;
+  line-height: 187%;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+ul {
+  list-style-type: none;
+}
+
+.contact,
+.address,
+.contact-top {
+  font-style: normal;
+  font-size: 14px;
+}
